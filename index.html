@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weathering</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1 class="logo">Weathering</h1>
+        <div class="search-group">
+          <img src="magnify.svg" alt="" />
+          <input
+            type="text"
+            id="searchBar"
+            placeholder="Enter the location..."
+          />
+          <!-- <button class="search">search</button> -->
+        </div>
+        <img src="settings.svg" alt="" class="cog" />
+        <!-- <button class="settings">settings</button> -->
+      </div>
+    </header>
+    <main>
+      <div class="main">
+        <div class="current-card">
+          <h1 class="title">Current Weather</h1>
+          <h2 class="location">Addis Ababa, Ethiopia</h2>
+          <div class="main-details">
+            <div class="left">
+              <img
+                src="https://cdn.weatherapi.com/weather/64x64/day/296.png"
+                alt=""
+                class="condition-icon"
+              />
+              <p class="temp">22 c</p>
+            </div>
+            <div class="right">
+              <p class="condition-text">Mostly cloudy</p>
+              <p class="feels-like">Feels like 17 c</p>
+            </div>
+          </div>
+          <div class="additional-detail">
+            <p class="uv-index">
+              <span class="data-title">UV-Index</span><br />
+              <span class="uv-index">5</span>
+            </p>
+            <p class="humidity">
+              <span class="data-title">Humidity</span><br />
+              <span class="humidity">5</span>
+            </p>
+            <p class="visibility">
+              <span class="data-title">Visibility</span><br />
+              <span class="visibility">1</span>
+            </p>
+            <p class="wind-speed">
+              <span class="data-title">Wind Speed</span><br />
+              <span class="wind-speed">7</span>
+            </p>
+            <p class="precipitation">
+              <span class="data-title">Precipitation</span><br />
+              <span class="precipitation">s</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

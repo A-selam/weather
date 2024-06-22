@@ -1,0 +1,14 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "A weather app, for the api of odin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "A-selam",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^3.6.0"
+  }
+}
