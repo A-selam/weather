@@ -128,3 +128,18 @@ header {
   line-height: 2;
   /* margin-bottom: 5px; */
 }
+
+div.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.loading-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
