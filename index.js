@@ -33,7 +33,7 @@ const dom_precipitation = document.querySelector('span.precipitation');
 async function currentWeather(city) {
     const key = '9ec9bbb7f2814aacabe72411242006';
     try {
-        const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${key}&q=${city}`, { mode: 'cors' });
+        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${key}&q=${city}`, { mode: 'cors' });
         if (!response.ok) {
             const error_body = await response.json();
             throw (error_body.error.code);
